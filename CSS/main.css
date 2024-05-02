@@ -121,6 +121,8 @@ ul {
 
 .seti-hero__page {
     display: flex;
+    width: 70%;
+    position: relative;
     
 }
 
@@ -139,7 +141,8 @@ ul {
 
 .hero--image {
   
-    
+    position: absolute;
+    right: 0;
     z-index: -1;
 }
 
@@ -174,7 +177,9 @@ ul {
     letter-spacing: -1px;
 } 
 .seti-hero__content {
+    width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 .site-hero__list {
     display: flex;
@@ -183,7 +188,8 @@ ul {
     align-items: center;
     row-gap: 63px;
     text-align: center;
-    margin-left: 96px;
+    /* margin-left: 96px; */
+    width: 20%;
 
 }
 

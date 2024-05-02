@@ -1,0 +1,26 @@
+@media only screen and (max-width:768px){
+    .container{
+        padding-left: 40px;
+        padding-right: 40px;
+    } 
+    .seti-header {
+        padding-top: 40px;
+       
+    }
+    .Secondary-btn {
+        display: block;
+        background-color: var(--Cream-White);
+        padding: 12px 24px;
+        border: 1px solid var(--Dark-Blue);
+        text-align: center;
+        color: var(--Dark-Blue);
+        font-family: "Epilogue";
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.18px;
+        max-width: max-content;
+        border-radius: 6px;
+        transition: .4s;
+    }
+}
